@@ -1,0 +1,91 @@
+.fqa{
+   background: #F5F5F5;
+   height: auto;
+   padding: 4rem 10rem;
+   
+}
+.fqa h1{
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: orangered;
+}
+.fqaitem{
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: #ffffff;
+    padding: 40px 20px;
+}
+.fqaitem h3{
+    color: red;
+}
+.fqaitem p{
+    color: rgb(68, 65, 65);
+    /* width: 400px; */line-height: 40px;
+
+    font-size: 20px;
+}
+button{
+    background: rgb(231, 18, 18);
+    padding: 0px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #F5F5F5;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+@media screen and (max-width: 461px) {
+    .fqa h1 {
+      font-size: 20px;
+    }
+    .fqaitem h3{
+        font-size: 15px;
+    }
+    .fqaitem p{
+        line-height: 12px;
+        font-size: 10px;
+    }
+    .fqaitem{
+        overflow: hidden;
+    }
+    .fqa{
+        background: #F5F5F5;
+        height: auto;
+        padding: 4rem 2rem;
+        
+     }
+     button{
+        background: rgb(231, 18, 18);
+        padding: 0px 10px;
+        font-size: 20px;
+    }
+    
+  }
+  @media screen and (max-width: 700px) {
+    .fqa h1 {
+      font-size: 20px;
+    }
+    .fqaitem h3{
+        font-size: 15px;
+    }
+    .fqaitem p{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .fqaitem{
+        overflow: hidden;
+    }
+    .fqa{
+        background: #F5F5F5;
+        height: auto;
+        padding: 4rem 2rem;
+        
+     }
+     button{
+        background: rgb(231, 18, 18);
+        padding: 0px 10px;
+        font-size: 20px;
+    }
+    
+  }
